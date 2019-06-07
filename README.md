@@ -17,6 +17,6 @@ allprojects {
   Step 2. Add the dependency
   
   dependencies {
-	        implementation 'com.github.emailandresbonifacio:commons-lib:Tag'
+	      implementation 'com.github.emailandresbonifacio:commons-lib:1.0.0'
 	}
   
