@@ -1,9 +1,10 @@
 package com.lwg.commons.adapter;
 
-import android.support.annotation.NonNull;
-import android.support.v4.util.SparseArrayCompat;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.collection.SparseArrayCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.common.collect.Lists;
 import com.lwg.commons.utils.CollectionsUtils;
@@ -80,7 +81,6 @@ public class GenericBaseRecyclerViewAdapter<T extends RecyclerViewType> extends 
      * and notify the {@link RecyclerView.Adapter}
      *
      * @param viewType to be removed from {@link #items}
-     *
      * @return the position where {@param viewType} was
      */
     public int removeViewTypeAndNotify(T viewType) {
@@ -96,7 +96,6 @@ public class GenericBaseRecyclerViewAdapter<T extends RecyclerViewType> extends 
      * Gets the requested view type position in the list.
      *
      * @param viewType View Type to get the position.
-     *
      * @return The position of the view type, or -1 if the view type wasn't found.
      */
     public int getViewTypePosition(T viewType) {

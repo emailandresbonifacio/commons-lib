@@ -1,7 +1,8 @@
 package com.lwg.commons.adapter;
 
-import android.support.v4.util.SparseArrayCompat;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.collection.SparseArrayCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Base class that simplifies the DelegateAdapter pattern implementation. Extends GenericBaseRecyclerViewAdapter

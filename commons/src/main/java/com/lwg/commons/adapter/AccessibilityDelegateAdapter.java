@@ -1,6 +1,7 @@
 package com.lwg.commons.adapter;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Interface to set the accessibility to a {@link RecyclerView.ViewHolder}
