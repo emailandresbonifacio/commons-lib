@@ -6,7 +6,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 1
+        versionCode 23040301
         versionName "1.0.1"
 
         multiDexEnabled true
